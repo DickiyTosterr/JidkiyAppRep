@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-Y:\Алёшин\pampam\jidkiyApp\jidkiyApp\obj\Debug\
+Y:\Алёшин\pampam\JidkiyAppRep\jidkiyApp\jidkiyApp\obj\Debug\
 jidkiyApp
 none
 false
 DEBUG;TRACE
-Y:\Алёшин\pampam\jidkiyApp\jidkiyApp\App.xaml
-6-191440024
+Y:\Алёшин\pampam\JidkiyAppRep\jidkiyApp\jidkiyApp\App.xaml
+7398660941
 2555124322
-21-2022528345
-18-1887543546
-MainWindow.xaml;Pages\AddPage.xaml;Pages\AutoPage.xaml;Pages\ClientPage.xaml;Pages\OrderPage.xaml;Pages\UserPage.xaml;
+22-1558670930
+18-15888250
+MainWindow.xaml;Pages\AddPage.xaml;Pages\AddProduct.xaml;Pages\AutoPage.xaml;Pages\ClientPage.xaml;Pages\OrderPage.xaml;Pages\UserPage.xaml;
 
-False
+True
 

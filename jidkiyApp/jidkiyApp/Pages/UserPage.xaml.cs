@@ -81,5 +81,10 @@ namespace jidkiyApp.Pages
         {
             NavigationService.Navigate(new ClientPage());
         }
+
+        private void ProdBtn_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new AddProduct(new Product()));
+        }
     }
 }

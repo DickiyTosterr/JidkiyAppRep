@@ -63,7 +63,7 @@ namespace jidkiyApp.Pages
 
         private void SaveBtn_Click(object sender, RoutedEventArgs e)
         {
-            if(orderProducts == null)
+            if(orderProducts.Count == 0)
             {
                 MessageBox.Show("Ничего нет");
                 return;
@@ -72,6 +72,20 @@ namespace jidkiyApp.Pages
             App.DB.OrderProduct.AddRange(orderProducts);
             App.DB.SaveChanges();
             MessageBox.Show("Ваш заказ успешно сохранен");
+        }
+
+        private void DelGoodBtn_Click(object sender, RoutedEventArgs e)
+        {
+            var deleteGoods = CBProduct.SelectedItem as Product;
+
+            if(deleteGoods == null)
+            {
+                MessageBox.Show("Выберите товар");
+                return;
+            }
+            App.DB.Product.Remove(deleteGoods);
+            App.DB.SaveChanges();
+            Refresh();
         }
     }
 }

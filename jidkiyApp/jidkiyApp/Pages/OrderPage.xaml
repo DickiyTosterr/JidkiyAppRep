@@ -19,6 +19,7 @@
             <Button x:Name="AddBtn" Content="Add" Click="AddBtn_Click"/>
             <Button x:Name="DelBtn" Content="Delete" Click="DelBtn_Click"/>
             <Button x:Name="SaveBtn" Content="Save" Click="SaveBtn_Click"/>
+            <Button x:Name="DelGoodBtn" Content="Delete Good" Click="DelGoodBtn_Click"/>
         </StackPanel>
         <DataGrid Grid.Row="1" x:Name="DGProduct" AutoGenerateColumns="False" IsReadOnly="True" ColumnWidth="*">
             <DataGrid.Columns>

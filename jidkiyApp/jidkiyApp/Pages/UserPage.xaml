@@ -46,6 +46,7 @@
             <Button x:Name="DelBtn" Content="Delete" Click="DelBtn_Click"/>
             <Button x:Name="GBBtn" Content="Go Back" IsCancel="True" Click="GBBtn_Click"/>
             <Button x:Name="DGBtn" Content="Data Grid" Click="DGBtn_Click"/>
+            <Button x:Name="ProdBtn" Content="Add Product" Click="ProdBtn_Click"/>
         </StackPanel>
     </Grid>
 </Page>
